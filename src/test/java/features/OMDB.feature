@@ -9,7 +9,7 @@ Feature: OMDB API tests
     Then status 401
     And assert response.Error == 'No API key provided.'
     * print response
-
+    
   Scenario: Verify movie info
     Given param t = 'Karate'
     And param apiKey = '9f94d4d0'

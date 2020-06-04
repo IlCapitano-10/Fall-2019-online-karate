@@ -16,3 +16,4 @@ Feature: Book-it API tests
     When method get
     Then status 200
     * print karate.pretty(response)
+
